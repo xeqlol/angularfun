@@ -9,7 +9,7 @@ namespace angularfun.Entities
     {
         public User()
         {
-            UserRole = new List<UserRole>();
+            UserRoles = new List<UserRole>();
         }
 
         public int Id { get; set; }

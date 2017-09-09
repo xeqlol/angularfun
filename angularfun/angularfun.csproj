@@ -13,11 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.1.1" />
-    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="wwwroot\app\components\" />
     <Folder Include="wwwroot\app\core\" />
     <Folder Include="wwwroot\images\" />

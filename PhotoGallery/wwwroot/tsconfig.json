@@ -1,0 +1,21 @@
+﻿{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitOnError": false,
+    "noImplicitAny": false,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es6",
+    "lib": [ "es5", "dom" ]
+  },
+  "exclude": [
+    "node_modules",
+    "wwwroot",
+    "typings",
+    "typings/globals",
+    "typings/modules"
+  ]
+}

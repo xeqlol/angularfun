@@ -21,6 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\app\components\home.component.ts" />
+    <Content Remove="wwwroot\app\components\photos.component.ts" />
     <Content Remove="wwwroot\tsconfig.json" />
   </ItemGroup>
 
@@ -73,6 +75,11 @@
     <Folder Include="wwwroot\css\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\js\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="wwwroot\app\components\home.component.ts" />
+    <TypeScriptCompile Include="wwwroot\app\components\photos.component.ts" />
   </ItemGroup>
 
 </Project>
